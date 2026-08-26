@@ -1,0 +1,192 @@
+/* my font */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Global Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* navbar style */
+nav {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* hero style */
+#hero {
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+}
+
+.kiri {
+    width: 60%;
+}
+
+.kanan {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.kanan img {
+    width: 300px;
+    border-radius: 0 5rem 0 5rem;
+}
+
+.button {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.button a {
+    text-decoration: none;
+    margin-right: 2rem;
+    border: 2px solid blueviolet;
+    padding: 0.5rem;
+    color: blueviolet;
+    border-radius: 4px;
+}
+
+.button a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Skill section */
+#skills {
+    background-color: whitesmoke;
+    padding: 5rem;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#skills p {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.card {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item img {
+    width: 30px;
+}
+
+.item {
+    border: 2px solid black;
+    width: 20%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+/* size logo */
+nav img {
+    width: 110px;
+}
+
+/* Testimoni style */
+#testimoni {
+    padding: 5rem;
+}
+
+#testimoni h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.profile-image img {
+    width: 120px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.testimoni-card {
+    background-color: whitesmoke;
+    width: 300px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    transition: 0.3s ease;
+}
+
+.testimoni-card:hover {
+    transform: translateY(-20px);
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.job {
+    color: grey;
+}
+
+.message {
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.testimoni-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+/* Contact style */
+#kontak {
+    text-align: center;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.contact a:hover {
+    background-color: black;
+    color: white;
+}
+
