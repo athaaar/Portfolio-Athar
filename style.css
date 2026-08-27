@@ -8,6 +8,10 @@ body {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* navbar style */
 nav {
     background-color: lightgrey;
